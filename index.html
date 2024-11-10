@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>website.com</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/wattpad (1).png" type="image/x-icon" />
+
+    <!-- Preconnect for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <button class="themeswitch" aria-label="Toggle Theme">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        enable-background="new 0 0 24 24"
+        height="24px"
+        viewBox="0 0 24 24"
+        width="24px"
+      >
+        <rect fill="none" height="24" width="24" />
+        <path
+          d="M11.01,3.05C6.51,3.54,3,7.36,3,12c0,4.97,4.03,9,9,9c4.63,0,8.45-3.5,8.95-8c0.09-0.79-0.78-1.42-1.54-0.95 c-0.84,0.54-1.84,0.85-2.91,0.85c-2.98,0-5.4-2.42-5.4-5.4c0-1.06,0.31-2.06,0.84-2.89C12.39,3.94,11.9,2.98,11.01,3.05z"
+        />
+      </svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        enable-background="new 0 0 24 24"
+        height="24px"
+        viewBox="0 0 24 24"
+        width="24px"
+      >
+        <rect fill="none" height="24" width="24" />
+        <path
+          d="M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0 c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2 c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1 C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06 c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41 l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41 c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36 c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"
+        />
+      </svg>
+    </button>
+    <section class="homepage" id="homepage">
+      <nav class="main-navigation">
+        <h2>Website <span>.</span></h2>
+        <ul class="nav-links">
+          <li><a href="#homepage">Home</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#ser">Services</a></li>
+          <li><a href="#price">Pricing</a></li>
+          <li><a href="#team">Team</a></li>
+          <li class="bars">
+            <div></div>
+          </li>
+          <li>
+            <a href="#" class="dropdown-toggle"
+              >Social
+              <i class="fas fa-caret-down" style="color: var(--main-color)"></i
+            ></a>
+
+            <div class="dropdown">
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fab fa-linkedin-in"></i>Linkedin</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-x-twitter"></i>twitter</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mobile-menu">
+        <ul>
+          <li>
+            <a href="#homepage" style="--i: 0.1s" id="des"
+              ><i class="fas fa-home"></i> Home</a
+            >
+          </li>
+          <li>
+            <a href="#about-section" style="--i: 0.15s" id="des1"
+              ><i class="fas fa-info-circle"></i> About</a
+            >
+          </li>
+          <li>
+            <a href="#ser" style="--i: 0.2s" id="des3"
+              ><i class="far fa-chart-bar"></i> Services
+            </a>
+          </li>
+          <li>
+            <a href="#price" style="--i: 0.25s" id="des2"
+              ><i class="fas fa-hand-holding-usd"></i> Pricing</a
+            >
+          </li>
+          <li>
+            <a href="#team" style="--i: 0.3s" id="des2"
+              ><i class="fas fa-users"></i> Team</a
+            >
+          </li>
+        </ul>
+
+        <p>social<i class="fa fa-caret-down"></i></p>
+
+        <div class="social">
+          <a href="#" class="form" style="--i: 0.15s"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" class="form" style="--i: 0.25s"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#" class="form" style="--i: 0.35s"
+            ><i class="fab fa-x-twitter"></i
+          ></a>
+          <a href="#" class="form" style="--i: 0.45s"
+            ><i class="fab fab fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
+
+      <a href="#homepage" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+
+      <div class="intro-container hidden">
+        <div class="intro-text">
+          <h2>Welcome to Website <span>.</span></h2>
+        </div>
+
+        <div class="subscription-form">
+          <form>
+            <input type="email" placeholder="name@example.com" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <p class="message"></p>
+      </div>
+    </section>
+
+    <section class="about-section" id="about-section">
+      <div class="about-text">
+        <h2 class="hidden">About Us</h2>
+        <p class="hidden">
+          Our mission is to provide innovative solutions that enhance
+          productivity, security, and connectivity for our clients around the
+          world. Discover the features that make our platform unique.
+        </p>
+      </div>
+
+      <div class="features-container">
+        <!-- Feature Item 1 -->
+        <div class="feature-item hidden">
+          <i class="fa-solid fa-cloud-arrow-down"></i>
+          <h3>Easy Access</h3>
+          <p>
+            Download resources with one click and access your materials anytime,
+            anywhere with our intuitive platform.
+          </p>
+        </div>
+
+        <!-- Feature Item 2 -->
+        <div class="feature-item hidden">
+          <i class="fa-solid fa-microchip"></i>
+          <h3>Advanced Technology</h3>
+          <p>
+            Our cutting-edge technology delivers efficient and reliable
+            solutions to keep your business running smoothly.
+          </p>
+        </div>
+
+        <!-- Feature Item 3 -->
+        <div class="feature-item hidden">
+          <i class="fa-solid fa-lock"></i>
+          <h3>Enhanced Security</h3>
+          <p>
+            Protect your data with industry-leading encryption and security
+            protocols for complete peace of mind.
+          </p>
+        </div>
+
+        <!-- Feature Item 4 -->
+        <div class="feature-item hidden">
+          <i class="fa-solid fa-globe"></i>
+          <h3>Global Connectivity</h3>
+          <p>
+            Reach audiences worldwide with optimized CDN and infrastructure
+            built for seamless access across regions.
+          </p>
+        </div>
+
+        <!-- Feature Item 5 -->
+        <div class="feature-item hidden">
+          <i class="fa-solid fa-plug"></i>
+          <h3>Flexible Integration</h3>
+          <p>
+            Easily integrate our solutions with your existing systems for a
+            seamless transition and increased productivity.
+          </p>
+        </div>
+
+        <!-- Feature Item 6 -->
+        <div class="feature-item hidden">
+          <i class="fa-solid fa-layer-group"></i>
+          <h3>Modular Design</h3>
+          <p>
+            Customize your setup with our modular design, allowing you to add
+            only the features that you need.
+          </p>
+        </div>
+
+        <!-- Feature Item 7 -->
+        <div class="feature-item hidden">
+          <i class="fa-solid fa-comments"></i>
+          <h3>Instant Communication</h3>
+          <p>
+            Stay connected with real-time messaging and notification systems to
+            keep your team in sync.
+          </p>
+        </div>
+
+        <!-- Feature Item 8 -->
+        <div class="feature-item hidden">
+          <i class="fa-solid fa-headset"></i>
+          <h3>Comprehensive Support</h3>
+          <p>
+            Our dedicated support team is here to help you 24/7 with any
+            questions or assistance you may need.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="statistics-section" id="statistic">
+      <div class="statistic-item hidden">
+        <span class="statistic-count" data-target="232">0</span>
+        <p>Clients</p>
+      </div>
+      <div class="statistic-item hidden">
+        <span class="statistic-count" data-target="521">0</span>
+        <p>Projects</p>
+      </div>
+      <div class="statistic-item hidden">
+        <span class="statistic-count" data-target="1453">0</span>
+        <p>Hours Of Support</p>
+      </div>
+      <div class="statistic-item hidden">
+        <span class="statistic-count" data-target="32">0</span>
+        <p>Workers</p>
+      </div>
+    </section>
+
+    <section class="services" id="ser">
+      <div class="about-text">
+        <h2>Our Services</h2>
+        <p>
+          Explore our range of services designed to help you achieve your goals
+          with technology and innovation.
+        </p>
+      </div>
+
+      <div class="container-sers">
+        <div class="sers-item hidden" style="--i: 0.1">
+          <div class="icon-box">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <a href="#">
+            <h4>Web Development</h4>
+            <p>Custom website solutions tailored to your business needs.</p>
+          </a>
+        </div>
+        <div class="sers-item hidden" style="--i: 0.15">
+          <div class="icon-box">
+            <i class="far fa-file-code"></i>
+          </div>
+          <a href="#">
+            <h4>Code Review</h4>
+            <p>Ensure your code is clean, efficient, and secure.</p>
+          </a>
+        </div>
+        <div class="sers-item hidden" style="--i: 0.2">
+          <div class="icon-box">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <a href="#">
+            <h4>Mobile App Development</h4>
+            <p>Creating intuitive mobile experiences for iOS and Android.</p>
+          </a>
+        </div>
+        <div class="sers-item hidden" style="--i: 0.25">
+          <div class="icon-box">
+            <i class="fas fa-tv"></i>
+          </div>
+          <a href="#">
+            <h4>Responsive Design</h4>
+            <p>Optimized layouts for seamless experiences on any device.</p>
+          </a>
+        </div>
+        <div class="sers-item hidden" style="--i: 0.3">
+          <div class="icon-box">
+            <i class="fas fa-code"></i>
+          </div>
+          <a href="#">
+            <h4>Custom Coding</h4>
+            <p>Tailored solutions with high-quality, efficient code.</p>
+          </a>
+        </div>
+        <div class="sers-item hidden" style="--i: 0.35">
+          <div class="icon-box">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <a href="#">
+            <h4>Networking Solutions</h4>
+            <p>Robust network architecture for secure connections.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-sec" id="feature">
+      <div class="about-text">
+        <h2>Our Features</h2>
+        <p>
+          Discover the powerful features that drive your success with tailored
+          technology solutions.
+        </p>
+      </div>
+
+      <div class="feature">
+        <div class="container-text hidden">
+          <h3>Experience Enhanced Productivity</h3>
+          <p>
+            Unlock the potential of your workflow with advanced tools and
+            seamless integration, designed to streamline processes and drive
+            innovation. Empower your team to work smarter, reduce manual tasks,
+            and achieve higher efficiency across every project.
+          </p>
+          <a href="#">Get Started</a>
+        </div>
+
+        <div class="container-images">
+          <img src="img/features-light-1.jpg" alt="1" class="hidden" />
+          <img src="img/features-light-2.jpg" alt="2" class="hidden" />
+        </div>
+      </div>
+    </section>
+
+    <section class="feature2">
+      <div class="images">
+        <img src="img/features-light-3.jpg" alt="" class="hidden" />
+      </div>
+
+      <div class="texts">
+        <h3 class="hidden">Achieving Success Through Quality</h3>
+        <p class="hidden">
+          Consistency and dedication to excellence pave the way to building
+          trust and creating value. Through diligence and a commitment to
+          integrity, we ensure satisfaction for all stakeholders.
+        </p>
+        <ul class="hidden">
+          <li class="">
+            <i class="fas fa-check"></i>
+            <span
+              >We adhere to the highest standards in every aspect of our
+              work.</span
+            >
+          </li>
+          <li class="">
+            <i class="fas fa-check"></i>
+            <span>Our commitment to customer satisfaction is unwavering.</span>
+          </li>
+          <li class="">
+            <i class="fas fa-check"></i>
+            <span
+              >Integrity and transparency drive our business practices.</span
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="pricing" id="price">
+      <div class="about-text hidden">
+        <h2>Pricing</h2>
+        <p>
+          Explore our range of services designed to help you achieve your goals
+          with technology and innovation.
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="pricing-item hidden">
+          <h3>Free Plan</h3>
+          <h4><sup>$</sup>0<span> / month</span></h4>
+          <ul>
+            <li>
+              <i class="fas fa-check"></i>
+              <span>Access to basic features</span>
+            </li>
+            <li>
+              <i class="fas fa-check"></i>
+              <span>Community support</span>
+            </li>
+            <li>
+              <i class="fas fa-check"></i>
+              <span>10 project templates</span>
+            </li>
+            <li class="na">
+              <i class="fa-solid fa-xmark"></i>
+              <span>Priority customer service</span>
+            </li>
+            <li class="na">
+              <i class="fa-solid fa-xmark"></i>
+              <span>Advanced analytics</span>
+            </li>
+          </ul>
+          <a href="#" class="buy-btn">Get Started</a>
+        </div>
+
+        <div class="pricing-item featured hidden">
+          <h3>Business Plan</h3>
+          <h4><sup>$</sup>29<span> / month</span></h4>
+          <ul>
+            <li>
+              <i class="fas fa-check"></i>
+              <span>Unlimited projects and templates</span>
+            </li>
+            <li>
+              <i class="fas fa-check"></i>
+              <span>Dedicated support team</span>
+            </li>
+            <li>
+              <i class="fas fa-check"></i>
+              <span>Custom branding options</span>
+            </li>
+            <li>
+              <i class="fa-solid fas fa-check"></i>
+              <span>Priority customer service</span>
+            </li>
+            <li>
+              <i class="fa-solid fas fa-check"></i>
+              <span>Monthly performance reviews</span>
+            </li>
+          </ul>
+          <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+
+        <div class="pricing-item hidden">
+          <h3>Developer Plan</h3>
+          <h4><sup>$</sup>49<span> / month</span></h4>
+          <ul>
+            <li>
+              <i class="fas fa-check"></i>
+              <span>All features of the Business Plan</span>
+            </li>
+            <li>
+              <i class="fas fa-check"></i>
+              <span>API access and integrations</span>
+            </li>
+            <li>
+              <i class="fas fa-check"></i>
+              <span>Customizable reporting</span>
+            </li>
+            <li>
+              <i class="fa-solid fas fa-check"></i>
+              <span>24/7 developer support</span>
+            </li>
+            <li>
+              <i class="fa-solid fas fa-check"></i>
+              <span>Advanced security features</span>
+            </li>
+          </ul>
+          <a href="#" class="buy-btn">Subscribe Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="title hidden">
+        <h2>Frequently Asked <span>Questions</span></h2>
+        <p>
+          Below you'll find answers to some of the most common questions about
+          our pricing, billing, and payment options. If you don't see the answer
+          you're looking for, please feel free to reach out to us.
+        </p>
+      </div>
+
+      <div class="faq-container">
+        <div class="faq-item hidden faq-active">
+          <h3>
+            <span class="num">1.</span>
+            <span>How much does your service/product cost?</span>
+            <i class="faq-toggle fas fa-chevron-right"></i>
+          </h3>
+          <div class="faq-content">
+            <p>
+              Our pricing varies depending on the product or service you're
+              purchasing. Please visit our Pricing Page for detailed information
+              about individual products and subscription options. We offer
+              flexible pricing plans to fit a variety of needs.
+            </p>
+          </div>
+        </div>
+        <!-- End Faq item-->
+
+        <div class="faq-item hidden">
+          <h3>
+            <span class="num">2.</span>
+            <span>Do you offer any discounts or promotions?</span>
+            <i class="faq-toggle fas fa-chevron-right"></i>
+          </h3>
+          <div class="faq-content">
+            <p>
+              Yes, we offer periodic discounts and special promotions throughout
+              the year. To stay updated on the latest offers, we recommend
+              subscribing to our newsletter or following us on social media.
+            </p>
+          </div>
+        </div>
+        <!-- End Faq item-->
+
+        <div class="faq-item hidden">
+          <h3>
+            <span class="num">3.</span>
+            <span
+              >Can I get a refund if I'm not satisfied with my purchase?</span
+            >
+            <i class="faq-toggle fas fa-chevron-right"></i>
+          </h3>
+          <div class="faq-content">
+            <p>
+              We want you to be completely satisfied with your purchase. If for
+              any reason you're not happy with your product or service, we offer
+              a 30-day money-back guarantee. Please refer to our Refund Policy
+              for full details.
+            </p>
+          </div>
+        </div>
+        <!-- End Faq item-->
+
+        <div class="faq-item hidden">
+          <h3>
+            <span class="num">4.</span>
+            <span>Are there any hidden fees?</span>
+            <i class="faq-toggle fas fa-chevron-right"></i>
+          </h3>
+          <div class="faq-content">
+            <p>
+              We are transparent about our pricing. There are no hidden fees on
+              our services/products. Any applicable taxes or shipping fees will
+              be clearly displayed during the checkout process before you
+              complete your order.
+            </p>
+          </div>
+        </div>
+        <!-- End Faq item-->
+
+        <div class="faq-item hidden">
+          <h3>
+            <span class="num">5.</span>
+            <span>What payment methods do you accept?</span>
+            <i class="faq-toggle fas fa-chevron-right"></i>
+          </h3>
+          <div class="faq-content">
+            <p>
+              We accept a variety of payment methods, including major credit
+              cards (Visa, MasterCard, American Express), PayPal, and Apple Pay.
+              You can select your preferred payment method during the checkout
+              process.
+            </p>
+          </div>
+        </div>
+        <!-- End Faq item-->
+      </div>
+    </section>
+
+    <section class="team" id="team">
+      <div class="about-text hidden">
+        <h2>Team</h2>
+        <p>
+          Meet our dedicated team of professionals, committed to delivering
+          excellence and driving innovation in every project.
+        </p>
+      </div>
+      <div class="container">
+        <div class="member hidden">
+          <div class="pic">
+            <img src="img/team/team-3.jpg" alt="Walter White photo" />
+          </div>
+          <div class="info">
+            <h4>Walter White</h4>
+            <span>Chief Executive Officer</span>
+            <p>
+              Walter brings years of experience in leadership and strategic
+              management, guiding the team towards ambitious goals.
+            </p>
+            <div class="social-member">
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="member hidden">
+          <div class="pic">
+            <img src="img/team/team-2.jpg" alt="Sarah Johnson photo" />
+          </div>
+          <div class="info">
+            <h4>Sarah Johnson</h4>
+            <span>Product Manager</span>
+            <p>
+              Sarah oversees product development, ensuring that each release
+              meets quality and functionality standards.
+            </p>
+            <div class="social-member">
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="member hidden">
+          <div class="pic">
+            <img src="img/team/team-1.jpg" alt="William Anderson photo" />
+          </div>
+          <div class="info">
+            <h4>William Anderson</h4>
+            <span>Chief Technology Officer</span>
+            <p>
+              William leads the technology team, focusing on innovation and
+              efficient implementation of cutting-edge solutions.
+            </p>
+            <div class="social-member">
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="member hidden">
+          <div class="pic">
+            <img src="img/team/team-6.jpg" alt="Amanda Jepson photo" />
+          </div>
+          <div class="info">
+            <h4>Amanda Jepson</h4>
+            <span>Accountant</span>
+            <p>
+              Amanda ensures that our finances are managed effectively, helping
+              to maintain our financial stability and growth.
+            </p>
+            <div class="social-member">
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
